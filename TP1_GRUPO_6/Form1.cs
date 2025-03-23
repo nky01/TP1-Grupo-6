@@ -19,7 +19,9 @@ namespace TP1_GRUPO_6
 
         private void Ejercicio1_Click(object sender, EventArgs e)
         {
-
+            Form2 formulario2 = new Form2();
+            formulario2.Show();
+            this.Hide();
         }
 
         private void Ejercicio2_Click(object sender, EventArgs e)
