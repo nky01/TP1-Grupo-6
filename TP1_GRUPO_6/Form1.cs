@@ -10,11 +10,26 @@ using System.Windows.Forms;
 
 namespace TP1_GRUPO_6
 {
-    public partial class Form1: Form
+    public partial class FormPrincipal: Form
     {
-        public Form1()
+        public FormPrincipal()
         {
             InitializeComponent();
+        }
+
+        private void Ejercicio1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Ejercicio2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Ejercicio3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
