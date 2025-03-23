@@ -63,10 +63,13 @@
             this.buttonAgregar.TabIndex = 2;
             this.buttonAgregar.Text = "Agregar";
             this.buttonAgregar.UseVisualStyleBackColor = true;
+            this.buttonAgregar.Click += new System.EventHandler(this.buttonAgregar_Click);
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
+            this.listBox1.Items.AddRange(new object[] {
+            "Mateo"});
             this.listBox1.Location = new System.Drawing.Point(49, 83);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(249, 264);
@@ -89,6 +92,7 @@
             this.buttonPassOne.TabIndex = 5;
             this.buttonPassOne.Text = ">";
             this.buttonPassOne.UseVisualStyleBackColor = true;
+            this.buttonPassOne.Click += new System.EventHandler(this.buttonPassOne_Click);
             // 
             // buttonPassAll
             // 
