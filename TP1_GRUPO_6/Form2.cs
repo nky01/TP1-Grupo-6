@@ -20,7 +20,16 @@ namespace TP1_GRUPO_6
 
         private void buttonPassOne_Click(object sender, EventArgs e)
         {
-          
+            if (listBox1.SelectedItem != null) //Verifico que haya un item seleccionado
+            {
+                string aux = listBox1.SelectedItem.ToString(); //Auxiliar que contiene el item a ser borrado. Necesita que el SelectedItem sea pasado a string.
+                listBox1.Items.Remove(listBox1.SelectedItem); //Saca el item original del listbox1
+                listBox2.Items.Add(aux); //Agrega el auxiliar a listbox2
+            }
+            else
+            {
+                MessageBox.Show("Seleccione el nombre a pasar");
+            }
         }
 
         private void buttonAgregar_Click(object sender, EventArgs e)
@@ -47,6 +56,7 @@ namespace TP1_GRUPO_6
                 else
                 {
                     listBox1.Items.Add(auxNombre); // agrego uno a la lista, en este caso sin descriminar
+                    textBox_nombre.Text = String.Empty;
                 }
             }
             else // condicion para cuando ya hay por lo menos un nombre cargado
@@ -71,6 +81,7 @@ namespace TP1_GRUPO_6
                 else
                 {
                     listBox1.Items.Add(auxNombre); // agrego el auxnombre
+                    textBox_nombre.Text = String.Empty;
                 }
 
             }
@@ -119,6 +130,16 @@ namespace TP1_GRUPO_6
         private void Form2_FormClosed(object sender, FormClosedEventArgs e) //esto es un evento, lo que hace es manejar el evento del cerrado, es decir cuando se clickee la cruz del form, este cerrara toda la aplicacion y no solamente esa ventana, evitando 
         {
             Application.Exit();
-        } 
+        }
+
+        private void buttonPassAll_Click(object sender, EventArgs e)
+        {
+            foreach (string persona in listBox1.Items)
+            {
+                string aux = persona;
+                listBox2.Items.Add(aux); //Agrega el auxiliar a listbox2
+            }
+            listBox1.Items.Clear();//El foreach necesita que el numero de la lista sea consistente, por lo que la orden de limpiar listbox 1 debe estar afuera del loop.
+        }
     }
 }

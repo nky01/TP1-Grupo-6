@@ -32,3 +32,14 @@ C:\Users\tomas\Documents\GitHub\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.cs
 C:\Users\tomas\Documents\GitHub\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.csproj.CoreCompileInputs.cache
 C:\Users\tomas\Documents\GitHub\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.exe
 C:\Users\tomas\Documents\GitHub\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.pdb
+C:\Users\alten\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.csproj.AssemblyReference.cache
+C:\Users\alten\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.FormPrincipal.resources
+C:\Users\alten\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.Form2.resources
+C:\Users\alten\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.Properties.Resources.resources
+C:\Users\alten\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.csproj.GenerateResource.cache
+C:\Users\alten\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.csproj.CoreCompileInputs.cache
+C:\Users\alten\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.exe
+C:\Users\alten\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.pdb
+C:\Users\alten\Documents\TP1-Grupo-6\TP1_GRUPO_6\bin\Debug\TP1_GRUPO_6.exe.config
+C:\Users\alten\Documents\TP1-Grupo-6\TP1_GRUPO_6\bin\Debug\TP1_GRUPO_6.exe
+C:\Users\alten\Documents\TP1-Grupo-6\TP1_GRUPO_6\bin\Debug\TP1_GRUPO_6.pdb

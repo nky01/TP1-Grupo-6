@@ -41,25 +41,28 @@
             // 
             this.labelNombre.AutoSize = true;
             this.labelNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNombre.Location = new System.Drawing.Point(46, 42);
+            this.labelNombre.Location = new System.Drawing.Point(61, 52);
+            this.labelNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelNombre.Name = "labelNombre";
-            this.labelNombre.Size = new System.Drawing.Size(153, 18);
+            this.labelNombre.Size = new System.Drawing.Size(194, 24);
             this.labelNombre.TabIndex = 0;
             this.labelNombre.Text = "Ingrese un nombre:";
             // 
             // textBox_nombre
             // 
-            this.textBox_nombre.Location = new System.Drawing.Point(205, 43);
+            this.textBox_nombre.Location = new System.Drawing.Point(273, 53);
+            this.textBox_nombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_nombre.Name = "textBox_nombre";
-            this.textBox_nombre.Size = new System.Drawing.Size(342, 20);
+            this.textBox_nombre.Size = new System.Drawing.Size(455, 22);
             this.textBox_nombre.TabIndex = 1;
             // 
             // buttonAgregar
             // 
             this.buttonAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAgregar.Location = new System.Drawing.Point(587, 36);
+            this.buttonAgregar.Location = new System.Drawing.Point(783, 44);
+            this.buttonAgregar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonAgregar.Name = "buttonAgregar";
-            this.buttonAgregar.Size = new System.Drawing.Size(109, 32);
+            this.buttonAgregar.Size = new System.Drawing.Size(145, 39);
             this.buttonAgregar.TabIndex = 2;
             this.buttonAgregar.Text = "Agregar";
             this.buttonAgregar.UseVisualStyleBackColor = true;
@@ -68,25 +71,30 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(49, 83);
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(65, 102);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(249, 264);
+            this.listBox1.Size = new System.Drawing.Size(331, 324);
             this.listBox1.TabIndex = 3;
             // 
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(447, 83);
+            this.listBox2.ItemHeight = 16;
+            this.listBox2.Location = new System.Drawing.Point(596, 102);
+            this.listBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(249, 264);
+            this.listBox2.Size = new System.Drawing.Size(331, 324);
             this.listBox2.TabIndex = 4;
             // 
             // buttonPassOne
             // 
             this.buttonPassOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPassOne.Location = new System.Drawing.Point(339, 161);
+            this.buttonPassOne.Location = new System.Drawing.Point(452, 198);
+            this.buttonPassOne.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonPassOne.Name = "buttonPassOne";
-            this.buttonPassOne.Size = new System.Drawing.Size(70, 30);
+            this.buttonPassOne.Size = new System.Drawing.Size(93, 37);
             this.buttonPassOne.TabIndex = 5;
             this.buttonPassOne.Text = ">";
             this.buttonPassOne.UseVisualStyleBackColor = true;
@@ -95,18 +103,20 @@
             // buttonPassAll
             // 
             this.buttonPassAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPassAll.Location = new System.Drawing.Point(339, 235);
+            this.buttonPassAll.Location = new System.Drawing.Point(452, 289);
+            this.buttonPassAll.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonPassAll.Name = "buttonPassAll";
-            this.buttonPassAll.Size = new System.Drawing.Size(70, 30);
+            this.buttonPassAll.Size = new System.Drawing.Size(93, 37);
             this.buttonPassAll.TabIndex = 6;
             this.buttonPassAll.Text = ">>";
             this.buttonPassAll.UseVisualStyleBackColor = true;
+            this.buttonPassAll.Click += new System.EventHandler(this.buttonPassAll_Click);
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.buttonPassAll);
             this.Controls.Add(this.buttonPassOne);
             this.Controls.Add(this.listBox2);
@@ -114,6 +124,7 @@
             this.Controls.Add(this.buttonAgregar);
             this.Controls.Add(this.textBox_nombre);
             this.Controls.Add(this.labelNombre);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form2";
             this.Text = "Nombre";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed);
