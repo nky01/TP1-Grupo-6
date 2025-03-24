@@ -13,9 +13,11 @@ namespace TP1_GRUPO_6
 {
     public partial class Form2 : Form
     {
-        public Form2()
+        FormPrincipal form1;
+        public Form2(FormPrincipal form1)
         {
             InitializeComponent();
+            this.form1 = form1;
         }
 
         private void buttonAgregar_Click(object sender, EventArgs e)
@@ -118,8 +120,12 @@ namespace TP1_GRUPO_6
 
         private void Form2_FormClosed(object sender, FormClosedEventArgs e) //esto es un evento, lo que hace es manejar el evento del cerrado, es decir cuando se clickee la cruz del form, este cerrara toda la aplicacion y no solamente esa ventana, evitando 
         {
-            Application.Exit();
+            form1.Show();
         }
 
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

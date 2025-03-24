@@ -19,7 +19,7 @@ namespace TP1_GRUPO_6
 
         private void Ejercicio1_Click(object sender, EventArgs e)
         {
-            Form2 formulario2 = new Form2();
+            Form2 formulario2 = new Form2(this);
             formulario2.Show();
             this.Hide();
         }
@@ -30,6 +30,11 @@ namespace TP1_GRUPO_6
         }
 
         private void Ejercicio3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormPrincipal_Load(object sender, EventArgs e)
         {
 
         }

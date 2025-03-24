@@ -160,6 +160,7 @@
             this.Controls.Add(this.Ejercicio1);
             this.Name = "FormPrincipal";
             this.Text = "Formulario Principal";
+            this.Load += new System.EventHandler(this.FormPrincipal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
