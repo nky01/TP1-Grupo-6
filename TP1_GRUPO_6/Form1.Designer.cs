@@ -43,7 +43,7 @@
             // Ejercicio1
             // 
             this.Ejercicio1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ejercicio1.Location = new System.Drawing.Point(62, 59);
+            this.Ejercicio1.Location = new System.Drawing.Point(86, 92);
             this.Ejercicio1.Name = "Ejercicio1";
             this.Ejercicio1.Size = new System.Drawing.Size(155, 38);
             this.Ejercicio1.TabIndex = 0;
@@ -54,7 +54,7 @@
             // Ejercicio2
             // 
             this.Ejercicio2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ejercicio2.Location = new System.Drawing.Point(299, 59);
+            this.Ejercicio2.Location = new System.Drawing.Point(329, 92);
             this.Ejercicio2.Name = "Ejercicio2";
             this.Ejercicio2.Size = new System.Drawing.Size(155, 38);
             this.Ejercicio2.TabIndex = 1;
@@ -65,7 +65,7 @@
             // Ejercicio3
             // 
             this.Ejercicio3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ejercicio3.Location = new System.Drawing.Point(537, 59);
+            this.Ejercicio3.Location = new System.Drawing.Point(561, 92);
             this.Ejercicio3.Name = "Ejercicio3";
             this.Ejercicio3.Size = new System.Drawing.Size(155, 38);
             this.Ejercicio3.TabIndex = 2;
@@ -77,7 +77,7 @@
             // 
             this.Integranteslbl.AutoSize = true;
             this.Integranteslbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Integranteslbl.Location = new System.Drawing.Point(58, 164);
+            this.Integranteslbl.Location = new System.Drawing.Point(82, 197);
             this.Integranteslbl.Name = "Integranteslbl";
             this.Integranteslbl.Size = new System.Drawing.Size(95, 20);
             this.Integranteslbl.TabIndex = 3;
@@ -87,7 +87,7 @@
             // 
             this.NicoleNombre.AutoSize = true;
             this.NicoleNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NicoleNombre.Location = new System.Drawing.Point(213, 164);
+            this.NicoleNombre.Location = new System.Drawing.Point(237, 197);
             this.NicoleNombre.Name = "NicoleNombre";
             this.NicoleNombre.Size = new System.Drawing.Size(137, 20);
             this.NicoleNombre.TabIndex = 4;
@@ -97,7 +97,7 @@
             // 
             this.LunNombre.AutoSize = true;
             this.LunNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LunNombre.Location = new System.Drawing.Point(213, 196);
+            this.LunNombre.Location = new System.Drawing.Point(237, 229);
             this.LunNombre.Name = "LunNombre";
             this.LunNombre.Size = new System.Drawing.Size(180, 20);
             this.LunNombre.TabIndex = 5;
@@ -107,7 +107,7 @@
             // 
             this.TomiNombre.AutoSize = true;
             this.TomiNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TomiNombre.Location = new System.Drawing.Point(213, 229);
+            this.TomiNombre.Location = new System.Drawing.Point(237, 262);
             this.TomiNombre.Name = "TomiNombre";
             this.TomiNombre.Size = new System.Drawing.Size(129, 20);
             this.TomiNombre.TabIndex = 6;
@@ -117,7 +117,7 @@
             // 
             this.GabiNombre.AutoSize = true;
             this.GabiNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GabiNombre.Location = new System.Drawing.Point(213, 261);
+            this.GabiNombre.Location = new System.Drawing.Point(237, 294);
             this.GabiNombre.Name = "GabiNombre";
             this.GabiNombre.Size = new System.Drawing.Size(153, 20);
             this.GabiNombre.TabIndex = 7;
@@ -127,7 +127,7 @@
             // 
             this.DylanNombre.AutoSize = true;
             this.DylanNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DylanNombre.Location = new System.Drawing.Point(213, 294);
+            this.DylanNombre.Location = new System.Drawing.Point(237, 327);
             this.DylanNombre.Name = "DylanNombre";
             this.DylanNombre.Size = new System.Drawing.Size(151, 20);
             this.DylanNombre.TabIndex = 8;
@@ -137,7 +137,7 @@
             // 
             this.MateoNombre.AutoSize = true;
             this.MateoNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MateoNombre.Location = new System.Drawing.Point(213, 327);
+            this.MateoNombre.Location = new System.Drawing.Point(237, 360);
             this.MateoNombre.Name = "MateoNombre";
             this.MateoNombre.Size = new System.Drawing.Size(258, 20);
             this.MateoNombre.TabIndex = 9;
