@@ -25,38 +25,51 @@ namespace TP1_GRUPO_6
 
         private void buttonAgregar_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show(listBox1.Items.Count.ToString());
-            /*for (int i = 0;i <= 10;i++)
+            if(textBox_nombre.Text.Trim() != "")
             {
-                if (textBox_nombre.Text.ToUpper() == listBox1.Items[i].ToString().ToUpper())
-                {
-                    MessageBox.Show("Este nombre ya fue ingresado");
-                    i = 100;
-                }
-                else
-                {
-                    listBox1.Items.Add(textBox_nombre.Text);
-                    i = 100;
-                }
-            }*/
-            bool nombreDisponible = false;
-            foreach(var persona in listBox1.Items)
+                listBox1.Items.Add(textBox_nombre.Text);
+                textBox_nombre.Text = String.Empty;
+            }
+            else
             {
-                if(textBox_nombre.Text.ToUpper() == persona.ToString().ToUpper())
-                {
-                    MessageBox.Show("Este nombre ya fue ingresado.");
-                }else
-                {
-                    nombreDisponible = true;
-                }
+                MessageBox.Show("Debe ingresar un nombre.", "Atención");
             }
 
-            if(nombreDisponible)
-            {
-                nombreDisponible = false;
-                listBox1.Items.Add(textBox_nombre.Text);
-                textBox_nombre.Text = string.Empty;
-            }
+                //MessageBox.Show(listBox1.Items.Count.ToString());
+                /*for (int i = 0;i <= 10;i++)
+                {
+                    if (textBox_nombre.Text.ToUpper() == listBox1.Items[i].ToString().ToUpper())
+                    {
+                        MessageBox.Show("Este nombre ya fue ingresado");
+                        i = 100;
+                    }
+                    else
+                    {
+                        listBox1.Items.Add(textBox_nombre.Text);
+                        i = 100;
+                    }
+                }*/
+
+            //----------------------------------------------
+
+            //    bool nombreDisponible = false;
+            //foreach(var persona in listBox1.Items)
+            //{
+            //    if(textBox_nombre.Text.ToUpper() == persona.ToString().ToUpper())
+            //    {
+            //        MessageBox.Show("Este nombre ya fue ingresado.");
+            //    }else
+            //    {
+            //        nombreDisponible = true;
+            //    }
+            //}
+
+            //if(nombreDisponible)
+            //{
+            //    nombreDisponible = false;
+            //    listBox1.Items.Add(textBox_nombre.Text);
+            //    textBox_nombre.Text = string.Empty;
+            //}
 
         }
     }
