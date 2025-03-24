@@ -68,8 +68,6 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
-            "Mateo"});
             this.listBox1.Location = new System.Drawing.Point(49, 83);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(249, 264);
@@ -118,6 +116,7 @@
             this.Controls.Add(this.labelNombre);
             this.Name = "Form2";
             this.Text = "Nombre";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
