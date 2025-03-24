@@ -107,7 +107,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(813, 461);
             this.Controls.Add(this.buttonPassAll);
             this.Controls.Add(this.buttonPassOne);
             this.Controls.Add(this.listBox2);
@@ -116,7 +116,8 @@
             this.Controls.Add(this.textBox_nombre);
             this.Controls.Add(this.labelNombre);
             this.Name = "Form2";
-            this.Text = "Nombre";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Ejercicio 1";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed);
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);

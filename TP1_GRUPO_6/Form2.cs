@@ -76,11 +76,20 @@ namespace TP1_GRUPO_6
                         existe = true;
                         break;
                     }
+ 
                 }
-
+                foreach (string item2 in listBox2.Items)
+                {
+                    if (textBox_nombre.Text.ToUpper().Trim() == item2.ToUpper())
+                    {
+                        existe = true;
+                        break;
+                    }
+                }
                 if (existe)
                 {
                     MessageBox.Show("Este nombre ya fue ingresado.", "Atención");
+                    textBox_nombre.Text = String.Empty;
                 }
                 else
                 {

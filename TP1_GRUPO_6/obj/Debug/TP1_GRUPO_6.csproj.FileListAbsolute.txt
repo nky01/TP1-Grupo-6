@@ -54,3 +54,14 @@ C:\Users\Usuario\Desktop\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.pdb
 C:\Users\Usuario\Desktop\TP1-Grupo-6\TP1_GRUPO_6\bin\Debug\TP1_GRUPO_6.exe.config
 C:\Users\Usuario\Desktop\TP1-Grupo-6\TP1_GRUPO_6\bin\Debug\TP1_GRUPO_6.exe
 C:\Users\Usuario\Desktop\TP1-Grupo-6\TP1_GRUPO_6\bin\Debug\TP1_GRUPO_6.pdb
+C:\Users\gauch\Documents\TP1-Grupo-6\TP1_GRUPO_6\bin\Debug\TP1_GRUPO_6.exe.config
+C:\Users\gauch\Documents\TP1-Grupo-6\TP1_GRUPO_6\bin\Debug\TP1_GRUPO_6.exe
+C:\Users\gauch\Documents\TP1-Grupo-6\TP1_GRUPO_6\bin\Debug\TP1_GRUPO_6.pdb
+C:\Users\gauch\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.csproj.AssemblyReference.cache
+C:\Users\gauch\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.FormPrincipal.resources
+C:\Users\gauch\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.Form2.resources
+C:\Users\gauch\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.Properties.Resources.resources
+C:\Users\gauch\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.csproj.GenerateResource.cache
+C:\Users\gauch\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.csproj.CoreCompileInputs.cache
+C:\Users\gauch\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.exe
+C:\Users\gauch\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.pdb

@@ -159,6 +159,7 @@
             this.Controls.Add(this.Ejercicio2);
             this.Controls.Add(this.Ejercicio1);
             this.Name = "FormPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulario Principal";
             this.Load += new System.EventHandler(this.FormPrincipal_Load);
             this.ResumeLayout(false);
