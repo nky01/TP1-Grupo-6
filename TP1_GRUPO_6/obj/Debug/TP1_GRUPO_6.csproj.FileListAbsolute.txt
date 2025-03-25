@@ -65,3 +65,4 @@ C:\Users\gauch\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.csproj.Ge
 C:\Users\gauch\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.csproj.CoreCompileInputs.cache
 C:\Users\gauch\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.exe
 C:\Users\gauch\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.pdb
+C:\Users\alten\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.Ejercicio2.resources

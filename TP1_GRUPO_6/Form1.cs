@@ -26,7 +26,9 @@ namespace TP1_GRUPO_6
 
         private void Ejercicio2_Click(object sender, EventArgs e)
         {
-
+            Ejercicio2 ejercicio2 = new Ejercicio2(this);
+            ejercicio2.Show();
+            this.Hide();
         }
 
         private void Ejercicio3_Click(object sender, EventArgs e)
