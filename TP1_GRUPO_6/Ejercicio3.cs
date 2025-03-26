@@ -28,5 +28,23 @@ namespace TP1_GRUPO_6
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if( (FemBtn.Checked || MascBtn.Checked) && (btnCasado.Checked || btnSoltero.Checked))
+            {
+                resultadoSexo.Text = FemBtn.Checked ? "Femenino" : "Masculino";
+                resultadoEstado.Text = btnCasado.Checked ? "Casado" : "Soltero";
+                resultadoEstado.Visible = true;
+                resultadoSexo.Visible = true;
+            }
+            else
+            {
+                MessageBox.Show("Deben selecionarse las opciones de sexo y estado civil", "Atencion");
+            }
+        }
+
+       
+        
     }
 }
