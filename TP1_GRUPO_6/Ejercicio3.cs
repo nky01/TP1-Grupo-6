@@ -23,5 +23,10 @@ namespace TP1_GRUPO_6
         {
             form1.Show();
         }
+
+        private void checkedOpciones_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
