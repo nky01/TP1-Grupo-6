@@ -81,5 +81,17 @@ namespace TP1_GRUPO_6
                 textBoxNombre.Text = string.Empty;
             }
         }
+
+        private void buttonBorrar_Click(object sender, EventArgs e)
+        {
+            if (listBoxNombres.Text != " ")
+            {
+                listBoxNombres.Items.Remove(listBoxNombres.SelectedItem);
+            }
+            else
+            {
+                MessageBox.Show("Debe seleccionar algun nombre de la lista", "Atención!");
+            }
+        }
     }
 }

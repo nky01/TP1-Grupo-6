@@ -132,6 +132,7 @@
             this.buttonBorrar.TabIndex = 1;
             this.buttonBorrar.Text = "Borrar";
             this.buttonBorrar.UseVisualStyleBackColor = true;
+            this.buttonBorrar.Click += new System.EventHandler(this.buttonBorrar_Click);
             // 
             // listBoxNombres
             // 

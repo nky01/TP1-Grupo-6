@@ -67,3 +67,4 @@ C:\Users\gauch\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.exe
 C:\Users\gauch\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.pdb
 C:\Users\alten\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.Ejercicio2.resources
 C:\Users\mateo\OneDrive\Escritorio\Uni\Programacion II\Pokemon\KlosterMonUTN\KlosterMonUTN\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.Ejercicio2.resources
+C:\Users\Elvis\OneDrive - frgp.utn.edu.ar\Desktop\Escritorio\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.Ejercicio2.resources
