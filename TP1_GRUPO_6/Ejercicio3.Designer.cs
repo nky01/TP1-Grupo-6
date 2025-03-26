@@ -51,9 +51,9 @@
             // 
             this.grpSexo.Controls.Add(this.MascBtn);
             this.grpSexo.Controls.Add(this.FemBtn);
-            this.grpSexo.Location = new System.Drawing.Point(234, 42);
+            this.grpSexo.Location = new System.Drawing.Point(17, 12);
             this.grpSexo.Name = "grpSexo";
-            this.grpSexo.Size = new System.Drawing.Size(222, 145);
+            this.grpSexo.Size = new System.Drawing.Size(226, 119);
             this.grpSexo.TabIndex = 0;
             this.grpSexo.TabStop = false;
             this.grpSexo.Text = "Sexo";
@@ -61,7 +61,7 @@
             // MascBtn
             // 
             this.MascBtn.AutoSize = true;
-            this.MascBtn.Location = new System.Drawing.Point(30, 80);
+            this.MascBtn.Location = new System.Drawing.Point(26, 67);
             this.MascBtn.Name = "MascBtn";
             this.MascBtn.Size = new System.Drawing.Size(94, 22);
             this.MascBtn.TabIndex = 1;
@@ -73,7 +73,7 @@
             // 
             this.FemBtn.AutoSize = true;
             this.FemBtn.Checked = true;
-            this.FemBtn.Location = new System.Drawing.Point(30, 51);
+            this.FemBtn.Location = new System.Drawing.Point(26, 38);
             this.FemBtn.Name = "FemBtn";
             this.FemBtn.Size = new System.Drawing.Size(92, 22);
             this.FemBtn.TabIndex = 0;
@@ -86,9 +86,9 @@
             // 
             this.grpEstadoCivil.Controls.Add(this.btnSoltero);
             this.grpEstadoCivil.Controls.Add(this.btnCasado);
-            this.grpEstadoCivil.Location = new System.Drawing.Point(640, 42);
+            this.grpEstadoCivil.Location = new System.Drawing.Point(353, 12);
             this.grpEstadoCivil.Name = "grpEstadoCivil";
-            this.grpEstadoCivil.Size = new System.Drawing.Size(222, 145);
+            this.grpEstadoCivil.Size = new System.Drawing.Size(222, 119);
             this.grpEstadoCivil.TabIndex = 2;
             this.grpEstadoCivil.TabStop = false;
             this.grpEstadoCivil.Text = "Estado Civil";
@@ -96,7 +96,7 @@
             // btnSoltero
             // 
             this.btnSoltero.AutoSize = true;
-            this.btnSoltero.Location = new System.Drawing.Point(30, 80);
+            this.btnSoltero.Location = new System.Drawing.Point(33, 67);
             this.btnSoltero.Name = "btnSoltero";
             this.btnSoltero.Size = new System.Drawing.Size(74, 22);
             this.btnSoltero.TabIndex = 1;
@@ -108,7 +108,7 @@
             // 
             this.btnCasado.AutoSize = true;
             this.btnCasado.Checked = true;
-            this.btnCasado.Location = new System.Drawing.Point(30, 51);
+            this.btnCasado.Location = new System.Drawing.Point(33, 38);
             this.btnCasado.Name = "btnCasado";
             this.btnCasado.Size = new System.Drawing.Size(78, 22);
             this.btnCasado.TabIndex = 0;
@@ -119,6 +119,7 @@
             // 
             // checkedOpciones
             // 
+            this.checkedOpciones.CheckOnClick = true;
             this.checkedOpciones.FormattingEnabled = true;
             this.checkedOpciones.Items.AddRange(new object[] {
             "Data Entry",
@@ -126,19 +127,19 @@
             "Programador",
             "Reparador de PC",
             "Tester"});
-            this.checkedOpciones.Location = new System.Drawing.Point(404, 237);
+            this.checkedOpciones.Location = new System.Drawing.Point(187, 147);
             this.checkedOpciones.Name = "checkedOpciones";
-            this.checkedOpciones.Size = new System.Drawing.Size(289, 156);
+            this.checkedOpciones.Size = new System.Drawing.Size(223, 118);
             this.checkedOpciones.TabIndex = 3;
             this.checkedOpciones.SelectedIndexChanged += new System.EventHandler(this.checkedOpciones_SelectedIndexChanged);
             // 
             // mostrar
             // 
             this.mostrar.BackColor = System.Drawing.SystemColors.Window;
-            this.mostrar.Location = new System.Drawing.Point(404, 431);
+            this.mostrar.Location = new System.Drawing.Point(187, 272);
             this.mostrar.Margin = new System.Windows.Forms.Padding(4);
             this.mostrar.Name = "mostrar";
-            this.mostrar.Size = new System.Drawing.Size(291, 32);
+            this.mostrar.Size = new System.Drawing.Size(223, 30);
             this.mostrar.TabIndex = 4;
             this.mostrar.Text = "Mostrar lo que se seleccionó";
             this.mostrar.UseVisualStyleBackColor = false;
@@ -148,7 +149,7 @@
             // 
             this.frase1.AutoSize = true;
             this.frase1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.frase1.Location = new System.Drawing.Point(234, 471);
+            this.frase1.Location = new System.Drawing.Point(35, 316);
             this.frase1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.frase1.Name = "frase1";
             this.frase1.Size = new System.Drawing.Size(336, 18);
@@ -159,7 +160,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(234, 510);
+            this.label1.Location = new System.Drawing.Point(35, 335);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 18);
@@ -170,7 +171,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(234, 547);
+            this.label2.Location = new System.Drawing.Point(36, 355);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(105, 18);
@@ -181,7 +182,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(234, 586);
+            this.label3.Location = new System.Drawing.Point(37, 378);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(63, 18);
@@ -192,7 +193,7 @@
             // 
             this.resultadoSexo.AutoSize = true;
             this.resultadoSexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.resultadoSexo.Location = new System.Drawing.Point(298, 510);
+            this.resultadoSexo.Location = new System.Drawing.Point(91, 335);
             this.resultadoSexo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.resultadoSexo.Name = "resultadoSexo";
             this.resultadoSexo.Size = new System.Drawing.Size(78, 18);
@@ -204,7 +205,7 @@
             // 
             this.resultadoEstCiv.AutoSize = true;
             this.resultadoEstCiv.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.resultadoEstCiv.Location = new System.Drawing.Point(347, 547);
+            this.resultadoEstCiv.Location = new System.Drawing.Point(139, 356);
             this.resultadoEstCiv.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.resultadoEstCiv.Name = "resultadoEstCiv";
             this.resultadoEstCiv.Size = new System.Drawing.Size(78, 18);
@@ -216,19 +217,18 @@
             // 
             this.resultadoOficio.AutoSize = true;
             this.resultadoOficio.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.resultadoOficio.Location = new System.Drawing.Point(305, 586);
+            this.resultadoOficio.Location = new System.Drawing.Point(103, 378);
             this.resultadoOficio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.resultadoOficio.Name = "resultadoOficio";
-            this.resultadoOficio.Size = new System.Drawing.Size(78, 18);
+            this.resultadoOficio.Size = new System.Drawing.Size(0, 18);
             this.resultadoOficio.TabIndex = 11;
-            this.resultadoOficio.Text = "resultado";
             this.resultadoOficio.Visible = false;
             // 
             // Ejercicio3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 623);
+            this.ClientSize = new System.Drawing.Size(600, 465);
             this.Controls.Add(this.resultadoOficio);
             this.Controls.Add(this.resultadoEstCiv);
             this.Controls.Add(this.resultadoSexo);

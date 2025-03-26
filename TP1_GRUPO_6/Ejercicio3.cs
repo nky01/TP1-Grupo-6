@@ -42,9 +42,16 @@ namespace TP1_GRUPO_6
             {
                 MessageBox.Show("Deben selecionarse las opciones de sexo y estado civil", "Atencion");
             }
+
+            int total = checkedOpciones.CheckedItems.Count;
+            for (int i=0; i<total; i++)
+            {
+                var item = checkedOpciones.CheckedItems[i];
+                resultadoOficio.Text += "- " + item.ToString() + "\n";
+                resultadoOficio.Visible = true;
+            }
+           
         }
 
-       
-        
     }
 }
