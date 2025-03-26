@@ -84,7 +84,7 @@ namespace TP1_GRUPO_6
 
         private void buttonBorrar_Click(object sender, EventArgs e)
         {
-            if (listBoxNombres.SelectedItem != null)
+            if (listBoxNombres.Text != " ")
             {
                 listBoxNombres.Items.Remove(listBoxNombres.SelectedItem);
             }
