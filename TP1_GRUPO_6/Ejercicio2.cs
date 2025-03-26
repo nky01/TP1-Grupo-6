@@ -40,29 +40,21 @@ namespace TP1_GRUPO_6
             //Verificamos si el nombre y el apellido no estan vacios
             if(textBoxNombre.Text.Trim() != string.Empty && textBoxApellido.Text.Trim() != string.Empty)
             {
-                bool nombreExiste = false;
-                bool apellidoExiste = false;
+                bool Existe = false;
                 //Revisamos todos las personas registradas en el ListBox
                 foreach(string itemPersona in listBoxNombres.Items)
                 {
-                    string persona = itemPersona;
-                    string[] nombre = persona.Split(' ');//Dividimos el nombre y el apellido
-
+                    string personaLista = itemPersona;//Juntamos el nombre y el apellido en una combinación única
+                    string NombreCompleto = textBoxNombre.Text + " " + textBoxApellido.Text;//Aca lo mismo
                     //Verificamos si el nombre ya esta registrado
-                    if (nombre[0].ToUpper() == textBoxNombre.Text.ToUpper() && !nombreExiste)
+                    if (personaLista.ToUpper().Trim() == NombreCompleto.ToUpper().Trim())
                     {
-                        nombreExiste = true;
-                    }
-
-                    //Verificamos si el apellido ya esta registrado
-                    if (nombre[1].ToUpper() == textBoxApellido.Text.ToUpper() && !apellidoExiste)
-                    {
-                        apellidoExiste = true;
+                        Existe = true;
                     }
                 }
 
                 //Si el nombre y el apellido fueron registrados entonces mostramos una advertencia
-                if(nombreExiste && apellidoExiste)
+                if(Existe)
                 {
                     MessageBox.Show(textBoxNombre.Text + " " + textBoxApellido.Text + " ya esta registrado.", "Atencion!");
                     textBoxApellido.Text = string.Empty;
