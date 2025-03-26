@@ -33,7 +33,9 @@ namespace TP1_GRUPO_6
 
         private void Ejercicio3_Click(object sender, EventArgs e)
         {
-
+            Ejercicio3 ejercicio3 = new Ejercicio3(this);
+            ejercicio3.Show();
+            this.Hide();
         }
 
         private void FormPrincipal_Load(object sender, EventArgs e)
