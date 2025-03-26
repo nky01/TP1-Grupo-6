@@ -80,3 +80,4 @@ C:\Users\lunad\OneDrive\Escritorio\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6
 C:\Users\lunad\OneDrive\Escritorio\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.csproj.CoreCompileInputs.cache
 C:\Users\lunad\OneDrive\Escritorio\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.exe
 C:\Users\lunad\OneDrive\Escritorio\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.pdb
+C:\Users\tomas\Documents\GitHub\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.Ejercicio2.resources

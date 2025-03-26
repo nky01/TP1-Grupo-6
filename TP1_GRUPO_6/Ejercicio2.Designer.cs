@@ -141,6 +141,7 @@
             this.listBoxNombres.Margin = new System.Windows.Forms.Padding(2);
             this.listBoxNombres.Name = "listBoxNombres";
             this.listBoxNombres.Size = new System.Drawing.Size(247, 264);
+            this.listBoxNombres.Sorted = true;
             this.listBoxNombres.TabIndex = 0;
             // 
             // Ejercicio2
