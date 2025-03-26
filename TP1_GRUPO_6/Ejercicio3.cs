@@ -35,6 +35,8 @@ namespace TP1_GRUPO_6
             {
                 resultadoSexo.Text = FemBtn.Checked ? "Femenino" : "Masculino";
                 resultadoSexo.Visible = true;
+                resultadoEstCiv.Text = btnCasado.Checked ? "Casado" : "Soltero";
+                resultadoEstCiv.Visible = true;
             }
             else
             {

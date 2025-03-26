@@ -85,3 +85,16 @@ C:\Users\Elvis\OneDrive - frgp.utn.edu.ar\Desktop\Escritorio\TP1-Grupo-6\TP1_GRU
 C:\Users\lunad\OneDrive\Escritorio\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.Ejercicio3.resources
 C:\Users\mateo\OneDrive\Escritorio\Uni\Programacion II\Pokemon\KlosterMonUTN\KlosterMonUTN\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.Ejercicio3.resources
 C:\Users\tomas\Documents\GitHub\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.Ejercicio3.resources
+C:\Users\Dylan\Documents\CODE\TP1-Grupo-6\TP1_GRUPO_6\bin\Debug\TP1_GRUPO_6.exe.config
+C:\Users\Dylan\Documents\CODE\TP1-Grupo-6\TP1_GRUPO_6\bin\Debug\TP1_GRUPO_6.exe
+C:\Users\Dylan\Documents\CODE\TP1-Grupo-6\TP1_GRUPO_6\bin\Debug\TP1_GRUPO_6.pdb
+C:\Users\Dylan\Documents\CODE\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.csproj.AssemblyReference.cache
+C:\Users\Dylan\Documents\CODE\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.Ejercicio2.resources
+C:\Users\Dylan\Documents\CODE\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.Ejercicio3.resources
+C:\Users\Dylan\Documents\CODE\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.FormPrincipal.resources
+C:\Users\Dylan\Documents\CODE\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.Form2.resources
+C:\Users\Dylan\Documents\CODE\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.Properties.Resources.resources
+C:\Users\Dylan\Documents\CODE\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.csproj.GenerateResource.cache
+C:\Users\Dylan\Documents\CODE\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.csproj.CoreCompileInputs.cache
+C:\Users\Dylan\Documents\CODE\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.exe
+C:\Users\Dylan\Documents\CODE\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.pdb

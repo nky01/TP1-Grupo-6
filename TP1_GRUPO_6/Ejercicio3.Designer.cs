@@ -41,6 +41,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.resultadoSexo = new System.Windows.Forms.Label();
+            this.resultadoEstCiv = new System.Windows.Forms.Label();
+            this.resultadoOficio = new System.Windows.Forms.Label();
             this.grpSexo.SuspendLayout();
             this.grpEstadoCivil.SuspendLayout();
             this.SuspendLayout();
@@ -198,11 +200,37 @@
             this.resultadoSexo.Text = "resultado";
             this.resultadoSexo.Visible = false;
             // 
+            // resultadoEstCiv
+            // 
+            this.resultadoEstCiv.AutoSize = true;
+            this.resultadoEstCiv.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.resultadoEstCiv.Location = new System.Drawing.Point(347, 547);
+            this.resultadoEstCiv.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.resultadoEstCiv.Name = "resultadoEstCiv";
+            this.resultadoEstCiv.Size = new System.Drawing.Size(78, 18);
+            this.resultadoEstCiv.TabIndex = 10;
+            this.resultadoEstCiv.Text = "resultado";
+            this.resultadoEstCiv.Visible = false;
+            // 
+            // resultadoOficio
+            // 
+            this.resultadoOficio.AutoSize = true;
+            this.resultadoOficio.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.resultadoOficio.Location = new System.Drawing.Point(305, 586);
+            this.resultadoOficio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.resultadoOficio.Name = "resultadoOficio";
+            this.resultadoOficio.Size = new System.Drawing.Size(78, 18);
+            this.resultadoOficio.TabIndex = 11;
+            this.resultadoOficio.Text = "resultado";
+            this.resultadoOficio.Visible = false;
+            // 
             // Ejercicio3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 623);
+            this.Controls.Add(this.resultadoOficio);
+            this.Controls.Add(this.resultadoEstCiv);
             this.Controls.Add(this.resultadoSexo);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -243,5 +271,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label resultadoSexo;
+        private System.Windows.Forms.Label resultadoEstCiv;
+        private System.Windows.Forms.Label resultadoOficio;
     }
 }
