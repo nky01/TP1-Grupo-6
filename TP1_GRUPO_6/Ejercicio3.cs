@@ -44,6 +44,9 @@ namespace TP1_GRUPO_6
             }
 
             int total = checkedOpciones.CheckedItems.Count;
+
+            resultadoOficio.Text = ""; //Limpia la pantalla de oficios
+
             for (int i=0; i<total; i++)
             {
                 var item = checkedOpciones.CheckedItems[i];
