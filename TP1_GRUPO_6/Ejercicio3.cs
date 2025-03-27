@@ -47,13 +47,26 @@ namespace TP1_GRUPO_6
 
             resultadoOficio.Text = ""; //Limpia la pantalla de oficios
 
-            for (int i=0; i<total; i++)
+            if(checkedOpciones.CheckedItems.Count != 0)
             {
-                var item = checkedOpciones.CheckedItems[i];
-                resultadoOficio.Text += "- " + item.ToString() + "\n";
+
+                for (int i = 0; i < total; i++)
+                {
+                    var item = checkedOpciones.CheckedItems[i];
+                    resultadoOficio.Text += "- " + item.ToString() + "\n";
+                    resultadoOficio.Visible = true;
+                }
+
+            }
+            else
+            {
+                resultadoOficio.Text = "Desempleado";
                 resultadoOficio.Visible = true;
             }
-           
+
+
+
+
         }
 
     }
