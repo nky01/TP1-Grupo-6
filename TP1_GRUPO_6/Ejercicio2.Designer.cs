@@ -154,7 +154,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Ejercicio2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Ejercicio2";
+            this.Text = "Nombre y Apellido";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Ejercicio2_FormClosed);
             this.groupBoxAgregar.ResumeLayout(false);
             this.groupBoxAgregar.PerformLayout();

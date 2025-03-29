@@ -99,3 +99,5 @@ C:\Users\Dylan\Documents\CODE\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.cspr
 C:\Users\Dylan\Documents\CODE\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.exe
 C:\Users\Dylan\Documents\CODE\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.pdb
 C:\Users\alten\Documents\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.Ejercicio3.resources
+C:\Users\Usuario\Desktop\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.Ejercicio2.resources
+C:\Users\Usuario\Desktop\TP1-Grupo-6\TP1_GRUPO_6\obj\Debug\TP1_GRUPO_6.Ejercicio3.resources
